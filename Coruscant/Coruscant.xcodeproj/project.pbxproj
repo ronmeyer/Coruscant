@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E414233C153638710039B10D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E414233B153638710039B10D /* UIKit.framework */; };
+		E414233E153638710039B10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E414233D153638710039B10D /* Foundation.framework */; };
+		E4142340153638710039B10D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E414233F153638710039B10D /* CoreGraphics.framework */; };
+		E4142346153638710039B10D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4142344153638710039B10D /* InfoPlist.strings */; };
+		E4142348153638710039B10D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4142347153638710039B10D /* main.m */; };
+		E414234C153638710039B10D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E414234B153638710039B10D /* AppDelegate.m */; };
+		E414234F153638710039B10D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E414234D153638710039B10D /* MainStoryboard_iPhone.storyboard */; };
+		E4142352153638710039B10D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4142350153638710039B10D /* MainStoryboard_iPad.storyboard */; };
+		E4142355153638710039B10D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4142354153638710039B10D /* MasterViewController.m */; };
+		E4142358153638710039B10D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4142357153638710039B10D /* DetailViewController.m */; };
+		E4142360153638710039B10D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E414235F153638710039B10D /* SenTestingKit.framework */; };
+		E4142361153638710039B10D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E414233B153638710039B10D /* UIKit.framework */; };
+		E4142362153638710039B10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E414233D153638710039B10D /* Foundation.framework */; };
+		E414236A153638710039B10D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4142368153638710039B10D /* InfoPlist.strings */; };
+		E414236D153638710039B10D /* CoruscantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E414236C153638710039B10D /* CoruscantTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4142363153638710039B10D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E414232E153638700039B10D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4142336153638710039B10D;
+			remoteInfo = Coruscant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4142337153638710039B10D /* Coruscant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coruscant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E414233B153638710039B10D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E414233D153638710039B10D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E414233F153638710039B10D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4142343153638710039B10D /* Coruscant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coruscant-Info.plist"; sourceTree = "<group>"; };
+		E4142345153638710039B10D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4142347153638710039B10D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4142349153638710039B10D /* Coruscant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coruscant-Prefix.pch"; sourceTree = "<group>"; };
+		E414234A153638710039B10D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E414234B153638710039B10D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E414234E153638710039B10D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E4142351153638710039B10D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E4142353153638710039B10D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E4142354153638710039B10D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E4142356153638710039B10D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E4142357153638710039B10D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E414235E153638710039B10D /* CoruscantTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoruscantTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E414235F153638710039B10D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E4142367153638710039B10D /* CoruscantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoruscantTests-Info.plist"; sourceTree = "<group>"; };
+		E4142369153638710039B10D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E414236B153638710039B10D /* CoruscantTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoruscantTests.h; sourceTree = "<group>"; };
+		E414236C153638710039B10D /* CoruscantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoruscantTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4142334153638710039B10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E414233C153638710039B10D /* UIKit.framework in Frameworks */,
+				E414233E153638710039B10D /* Foundation.framework in Frameworks */,
+				E4142340153638710039B10D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E414235A153638710039B10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4142360153638710039B10D /* SenTestingKit.framework in Frameworks */,
+				E4142361153638710039B10D /* UIKit.framework in Frameworks */,
+				E4142362153638710039B10D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E414232C153638700039B10D = {
+			isa = PBXGroup;
+			children = (
+				E4142341153638710039B10D /* Coruscant */,
+				E4142365153638710039B10D /* CoruscantTests */,
+				E414233A153638710039B10D /* Frameworks */,
+				E4142338153638710039B10D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4142338153638710039B10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4142337153638710039B10D /* Coruscant.app */,
+				E414235E153638710039B10D /* CoruscantTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E414233A153638710039B10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E414233B153638710039B10D /* UIKit.framework */,
+				E414233D153638710039B10D /* Foundation.framework */,
+				E414233F153638710039B10D /* CoreGraphics.framework */,
+				E414235F153638710039B10D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4142341153638710039B10D /* Coruscant */ = {
+			isa = PBXGroup;
+			children = (
+				E414234A153638710039B10D /* AppDelegate.h */,
+				E414234B153638710039B10D /* AppDelegate.m */,
+				E414234D153638710039B10D /* MainStoryboard_iPhone.storyboard */,
+				E4142350153638710039B10D /* MainStoryboard_iPad.storyboard */,
+				E4142353153638710039B10D /* MasterViewController.h */,
+				E4142354153638710039B10D /* MasterViewController.m */,
+				E4142356153638710039B10D /* DetailViewController.h */,
+				E4142357153638710039B10D /* DetailViewController.m */,
+				E4142342153638710039B10D /* Supporting Files */,
+			);
+			path = Coruscant;
+			sourceTree = "<group>";
+		};
+		E4142342153638710039B10D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4142343153638710039B10D /* Coruscant-Info.plist */,
+				E4142344153638710039B10D /* InfoPlist.strings */,
+				E4142347153638710039B10D /* main.m */,
+				E4142349153638710039B10D /* Coruscant-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4142365153638710039B10D /* CoruscantTests */ = {
+			isa = PBXGroup;
+			children = (
+				E414236B153638710039B10D /* CoruscantTests.h */,
+				E414236C153638710039B10D /* CoruscantTests.m */,
+				E4142366153638710039B10D /* Supporting Files */,
+			);
+			path = CoruscantTests;
+			sourceTree = "<group>";
+		};
+		E4142366153638710039B10D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4142367153638710039B10D /* CoruscantTests-Info.plist */,
+				E4142368153638710039B10D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4142336153638710039B10D /* Coruscant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4142370153638710039B10D /* Build configuration list for PBXNativeTarget "Coruscant" */;
+			buildPhases = (
+				E4142333153638710039B10D /* Sources */,
+				E4142334153638710039B10D /* Frameworks */,
+				E4142335153638710039B10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coruscant;
+			productName = Coruscant;
+			productReference = E4142337153638710039B10D /* Coruscant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E414235D153638710039B10D /* CoruscantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4142373153638710039B10D /* Build configuration list for PBXNativeTarget "CoruscantTests" */;
+			buildPhases = (
+				E4142359153638710039B10D /* Sources */,
+				E414235A153638710039B10D /* Frameworks */,
+				E414235B153638710039B10D /* Resources */,
+				E414235C153638710039B10D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4142364153638710039B10D /* PBXTargetDependency */,
+			);
+			name = CoruscantTests;
+			productName = CoruscantTests;
+			productReference = E414235E153638710039B10D /* CoruscantTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E414232E153638700039B10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = E4142331153638700039B10D /* Build configuration list for PBXProject "Coruscant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E414232C153638700039B10D;
+			productRefGroup = E4142338153638710039B10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4142336153638710039B10D /* Coruscant */,
+				E414235D153638710039B10D /* CoruscantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4142335153638710039B10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4142346153638710039B10D /* InfoPlist.strings in Resources */,
+				E414234F153638710039B10D /* MainStoryboard_iPhone.storyboard in Resources */,
+				E4142352153638710039B10D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E414235B153638710039B10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E414236A153638710039B10D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E414235C153638710039B10D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4142333153638710039B10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4142348153638710039B10D /* main.m in Sources */,
+				E414234C153638710039B10D /* AppDelegate.m in Sources */,
+				E4142355153638710039B10D /* MasterViewController.m in Sources */,
+				E4142358153638710039B10D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4142359153638710039B10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E414236D153638710039B10D /* CoruscantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4142364153638710039B10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4142336153638710039B10D /* Coruscant */;
+			targetProxy = E4142363153638710039B10D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4142344153638710039B10D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4142345153638710039B10D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E414234D153638710039B10D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E414234E153638710039B10D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E4142350153638710039B10D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4142351153638710039B10D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E4142368153638710039B10D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4142369153638710039B10D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E414236E153638710039B10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E414236F153638710039B10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4142371153638710039B10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coruscant/Coruscant-Prefix.pch";
+				INFOPLIST_FILE = "Coruscant/Coruscant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4142372153638710039B10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coruscant/Coruscant-Prefix.pch";
+				INFOPLIST_FILE = "Coruscant/Coruscant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4142374153638710039B10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coruscant.app/Coruscant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coruscant/Coruscant-Prefix.pch";
+				INFOPLIST_FILE = "CoruscantTests/CoruscantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E4142375153638710039B10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coruscant.app/Coruscant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coruscant/Coruscant-Prefix.pch";
+				INFOPLIST_FILE = "CoruscantTests/CoruscantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4142331153638700039B10D /* Build configuration list for PBXProject "Coruscant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E414236E153638710039B10D /* Debug */,
+				E414236F153638710039B10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4142370153638710039B10D /* Build configuration list for PBXNativeTarget "Coruscant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4142371153638710039B10D /* Debug */,
+				E4142372153638710039B10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4142373153638710039B10D /* Build configuration list for PBXNativeTarget "CoruscantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4142374153638710039B10D /* Debug */,
+				E4142375153638710039B10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E414232E153638700039B10D /* Project object */;
+}
